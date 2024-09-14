@@ -1,4 +1,6 @@
-package stacks;
+package stacks.arrayStack;
+
+import stacks.Employee;
 
 public class ArrayStack {
     private Employee[] stack;
