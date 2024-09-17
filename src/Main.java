@@ -1,6 +1,7 @@
 import stacks.arrayStack.ArrayStack;
 import stacks.Employee;
 import stacks.linkedStack.LinkedStack;
+import static stacks.stacksChallenge.Palindrome.isPalindrome;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,5 +28,12 @@ public class Main {
         System.out.println("peek(): "+linkedStack.peek());
         System.out.println("pop():  "+linkedStack.pop());
         System.out.println("size(): "+linkedStack.size());
+        System.out.println("Palindrome");
+        System.out.println(isPalindrome("nanan"));
+        System.out.println(isPalindrome("moez"));
+        System.out.println(isPalindrome("aziza"));
+        System.out.println(isPalindrome("koka kok"));
+        System.out.println(isPalindrome("koka koka"));
+
     }
 }
